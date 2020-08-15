@@ -2,6 +2,10 @@ body, html, input {
   font-family: 'Roboto', sans-serif !important;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #6da066;
 }
@@ -20,6 +24,13 @@ a {
 
 .bg-light {
   background-color: #ffffff!important;
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+}
+
+section.section-profile {
+  margin-top: 60px;
 }
 
 img.img-profile {

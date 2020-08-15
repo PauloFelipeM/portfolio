@@ -19,9 +19,10 @@
   <script src="./assets/js/glide.min.js"></script>
 </head>
 
-<body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<body>  
+  <header>    
+    <div id="home"></div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -30,26 +31,26 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Sobre</a>
+              <a class="nav-link" href="#about">Sobre</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Experiências</a>
+              <a class="nav-link" href="#experience">Experiências</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Tecnologias</a>
+              <a class="nav-link" href="#techs">Tecnologias</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Projetos</a>
+              <a class="nav-link" href="#projects">Projetos</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
   </header>
-  <!-- Profile -->
+  <!-- Profile -->  
   <section class="section-profile">
     <div class="container py-5">
       <div class="row">
@@ -76,12 +77,13 @@
             <i class="fab fa-whatsapp"></i>
           </a>
         </div>
+        <div id="about"></div> 
       </div>
-    </div>
+    </div>       
   </section>
 
   <!-- About -->
-  <section class="section-about">
+  <section class="section-about">    
     <div class="container p-4">
       <div class="row">
         <div class="col-12 text-center">
@@ -100,8 +102,9 @@
             <li><strong>Endereço: </strong> Natal, Rio grande do norte</li>
           </ul>
         </div>
+        <div id="experience"></div> 
       </div>
-    </div>
+    </div>    
   </section>
   
   <!-- Experiencia -->
@@ -145,8 +148,9 @@
             <p>
               Atendimento e suporte para sistemas ERP, TEF, análise de banco de dados (SQL Server, Firebird) e programação web ASP.NET MVC.
             </p>
-          </div>
+          </div>          
         </div>
+        <div id="techs"></div> 
       </div>
     </div>
   </section>
@@ -216,6 +220,7 @@
                   <i class="fas fa-arrow-circle-right"></i>
                 </button>
               </div>
+              <div id="projects"></div> 
             </div>
           </div>
         </div>

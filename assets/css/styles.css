@@ -203,6 +203,15 @@ img.img-profile {
   color: #323232;
   font-weight: 500;
   text-transform: none;
+  margin-bottom: 0;
+}
+
+.experience-title div {
+  margin-bottom: 10px;
+}
+
+.experience-title a:hover h4 {
+  color: #797878;
 }
 
 .experience-title h5 {
@@ -274,6 +283,10 @@ img.img-profile {
 
 .tech-icon i.fa-angular{
   color: #dd0529;
+}
+
+.tech-icon i.fa-windows{
+  color: #197fc2;
 }
 
 button.glide__arrow {
@@ -357,6 +370,31 @@ button.glide__arrow:focus {
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
+  color: #78cc6d;
+}
+
+
+.escape {
+  height: initial;
+  line-height: 22px !important;
+  min-height: 44px;
+  -webkit-line-clamp: 20;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-align: left;
+}
+
+.cert-link {
+  color: #646464;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: start;
+  transition: color 0.2s;
+}
+
+.cert-link:hover {
   color: #78cc6d;
 }
 

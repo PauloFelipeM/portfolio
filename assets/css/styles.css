@@ -398,6 +398,12 @@ button.glide__arrow:focus {
   color: #78cc6d;
 }
 
+a.project-link.curriculo {
+  height: 40px;
+  line-height: 40px;
+  text-transform: initial;
+}
+
 @media (min-width: 767px){
   .about-text-item:before {
     content: '';

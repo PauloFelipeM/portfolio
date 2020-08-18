@@ -404,6 +404,92 @@ a.project-link.curriculo {
   text-transform: initial;
 }
 
+.ph-img {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
+.glide_projects_without_code button.glide__arrow.glide__arrow--right{
+  right: -25px;
+  top: 150px;
+}
+
+.glide_projects_without_code button.glide__arrow.glide__arrow--left{
+  left: -25px;
+  top: 150px;
+}
+
+.project-tags span {
+  background: #78cc6d;
+  color: #fefefe;
+  padding: 5px 10px;
+  border-radius: 5px/20%;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.project-title a.btn-title {
+  font-size: 18px;
+  color: #323232;
+  font-weight: 500;
+  text-transform: none;
+  margin-bottom: 0;
+  transition: color 0.2s;
+}
+
+.project-title a.btn-title:hover {  
+  color: #797878;
+}
+
+.project-title a.btn-company {
+  font-size: 17px;
+  color: #646464;
+  font-weight: 500;
+  text-transform: none;
+  margin-bottom: 0;
+  transition: color 0.2s;
+}
+
+.project-title a.btn-company:hover {  
+  color: #78cc6d;
+}
+
+.project-description {
+  margin: 15px 0;
+}
+
+.project-description p {
+  color: #646464;
+  letter-spacing: 0em;
+  font-weight: 400;
+  font-size: 15px;
+  height: 40px;
+}
+
+@media (min-width: 1200px){
+  .glide__slide.project-item{
+    width: 500px !important;
+    margin-left: 25px !important;
+    margin-right: 25px !important;
+  }
+}
+
+@media (max-width: 1200px){
+  .glide_projects_without_code button.glide__arrow.glide__arrow--right{
+    right: -29px;
+    top: 150px;
+    font-size: 21px;
+  }
+  
+  .glide_projects_without_code button.glide__arrow.glide__arrow--left{
+    left: -29px;
+    top: 150px;
+    font-size: 21px;
+  }
+}
+
 @media (min-width: 767px){
   .about-text-item:before {
     content: '';
